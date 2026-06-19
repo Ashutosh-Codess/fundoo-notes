@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+mysql-connector-python
+python-dotenv
+bcrypt
+python-jose[cryptography]
+pydantic[email]
+python-multipart
