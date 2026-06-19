@@ -1,6 +1,42 @@
-venv/
-.env
-__pycache__/
-*.pyc
-logs/
+# Custom
 data/user*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+logs/
+
+# Python caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
